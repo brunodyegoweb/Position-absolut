@@ -1,41 +1,44 @@
 @charset "UTF-8";
 
 .square {
+    width: 200px;
+    height: 200px;
     line-height: 200px;
     text-align: center;
     color: #fff;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.329);
-    width: 200px;
-    height: 200px;
     cursor: pointer;
 }
 
 .squareOne {
-    background-color: #0000ff;
-    position:absolute;
+    position: absolute;
     right: 0;
+    background-color: #0000ff;
 }
 
 .squareTwo {
+    position: absolute;
+    left: 50%;/*left, right, top, botton que pegam os 50%da tela*/
+    top: 50%;
+    transform: translate(-50%, -50%);/*trasnlate pega os 50% do elemento */
     background-color:#7ffff0;
-    position: relative;
-    left: 50%;
-    right: 50%;
 }
 
 .squareThre {
-    background-color: #f51d1d;
     position: relative;
-    bottom: 200%;
+    background-color: #f51d1d;
 }
 
 .internal {
-    background-color: #008000;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     width: 100px;
     height: 100px;
+    background-color: #008000;
     line-height: 100px;/*centraliz verticalmente*/
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.329);
-    position: relative;
-    bottom: 200%;
+
 }
