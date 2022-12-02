@@ -2,8 +2,12 @@
 
 .square {
     line-height: 200px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.329);
     width: 200px;
     height: 200px;
+    cursor: pointer;
 }
 
 .squareOne {
@@ -12,4 +16,17 @@
 
 .squareTwo {
     background-color:#7ffff0;
+}
+
+.squareThre {
+    background-color: #f51d1d;
+}
+
+.internal {
+    background-color: #008000;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.329);
 }
