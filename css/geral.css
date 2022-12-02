@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.square {
+    line-height: 200px;
+    width: 200px;
+    height: 200px;
+}
+
+.squareOne {
+    background-color: #0000ff;
+}
+
+.squareTwo {
+    background-color:#7ffff0;
+}
